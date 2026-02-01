@@ -1,0 +1,72 @@
+/* Wedding RSVP App Styles */
+
+.App {
+    min-height: 100vh;
+}
+
+/* Gold decorative line */
+.gold-line {
+    width: 60px;
+    height: 1px;
+    background-color: #A67C00;
+    margin: 0 auto;
+}
+
+/* Event card styling */
+.event-card {
+    background-color: #F0EBE0;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Form container */
+.form-container {
+    max-width: 100%;
+}
+
+/* Success animation */
+@keyframes checkmark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.success-checkmark {
+    animation: checkmark 0.5s ease-out forwards;
+}
+
+/* Admin table styles */
+.admin-table th {
+    background-color: #F0EBE0;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+}
+
+.admin-table td {
+    border-bottom: 1px solid #E5E0D6;
+}
+
+/* Loading spinner */
+.spinner {
+    border: 2px solid #E5E0D6;
+    border-top: 2px solid #A67C00;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
