@@ -154,11 +154,11 @@ const RSVPPage = () => {
               <p className="font-montserrat text-[#1A1A1A]/80 mb-2">
                 March 5, 2026
               </p>
+              {/* FIXED: Removed the <span> with font-semibold to match Reception */}
               <p className="font-montserrat text-[#1A1A1A]/60 text-sm">
-                <span className="font-semibold text-[#1A1A1A]">11:45 AM to 12:00 Noon</span>
+                11:45 AM to 12:00 Noon
               </p>
             </div>
-          </div>
 
           {/* Venue Button */}
           <div className="mt-10 text-center opacity-0 animate-fade-in-up animation-delay-300">
