@@ -159,6 +159,7 @@ const RSVPPage = () => {
                 11:45 AM to 12:00 Noon
               </p>
             </div>
+            </div>
 
           {/* Venue Button */}
           <div className="mt-10 text-center opacity-0 animate-fade-in-up animation-delay-300">
