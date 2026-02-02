@@ -123,10 +123,11 @@ const RSVPPage = () => {
         </div>
       </section>
 
-      {/* Events Section */}
+ {/* Events Section */}
       <section className="py-16 px-6 md:px-10" data-testid="events-section">
         <div className="max-w-2xl mx-auto">
           <div className="grid md:grid-cols-2 gap-6">
+            
             {/* Reception */}
             <div className="bg-[#F0EBE0] p-8 text-center opacity-0 animate-fade-in-up animation-delay-100" data-testid="reception-card">
               <p className="font-montserrat text-xs tracking-[0.2em] uppercase text-[#A67C00] mb-4">
@@ -138,7 +139,8 @@ const RSVPPage = () => {
               <p className="font-montserrat text-[#1A1A1A]/80 mb-2">
                 March 4, 2026
               </p>
-              <p className="font-montserrat text-[#1A1A1A]/60 text-sm">
+              {/* BOLD: This is now the bold one */}
+              <p className="font-montserrat text-[#1A1A1A]/60 text-sm font-bold">
                 7:00 PM onwards
               </p>
             </div>
@@ -154,17 +156,18 @@ const RSVPPage = () => {
               <p className="font-montserrat text-[#1A1A1A]/80 mb-2">
                 March 5, 2026
               </p>
-              {/* FIXED: Removed the <span> with font-semibold to match Reception */}
+              {/* NORMAL: This is plain text now */}
               <p className="font-montserrat text-[#1A1A1A]/60 text-sm">
                 11:45 AM to 12:00 Noon
               </p>
             </div>
-            </div>
+            
+          </div>
 
           {/* Venue Button */}
           <div className="mt-10 text-center opacity-0 animate-fade-in-up animation-delay-300">
             <a
-              href="https://maps.app.goo.gl/3dAi3x3nPuMbWVjV6"
+              href="https://maps.app.goo.gl/VqXATJtWZd6JByrL8"
               target="_blank"
               rel="noopener noreferrer"
               data-testid="venue-map-button"
