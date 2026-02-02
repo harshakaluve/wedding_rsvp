@@ -330,3 +330,4 @@ const RSVPPage = () => {
 };
 
 export default RSVPPage;
+// v1.1 - fixing bold font issue
