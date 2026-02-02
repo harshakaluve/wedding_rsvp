@@ -157,7 +157,7 @@ const RSVPPage = () => {
                 March 5, 2026
               </p>
               {/* NORMAL: This is plain text now */}
-              <p className="font-montserrat text-[#1A1A1A]/60 text-sm">
+              <p className="font-montserrat text-[#1A1A1A]/60 text-sm font-bold">
                 11:45 AM to 12:00 Noon
               </p>
             </div>
